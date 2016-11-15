@@ -28,7 +28,7 @@ header("Location: $url"); // Page redirecting to home.php
 }
 else
 {
-$errorMsgReg="Usuario o correo ya registrado";
+$errorMsgReg="Usuario o correo ya registrado. Por favor intenta de nuevo";
 }
 }
 }
@@ -136,18 +136,17 @@ $errorMsgReg="Usuario o correo ya registrado";
                                         <input type="text" name="usernameReg" class="form-control" placeholder="Nombre de usuario" required />
                                         
                                     </div>
-
+                                    <p>
                                     <div class="md-form">
                                         <i class="fa fa-envelope prefix"></i><label for="form">Email</label>
                                         <input type="text" name="emailReg" class="form-control" placeholder="Email" required />
-                                        
                                     </div>
-
+                                    <p>
                                     <div class="md-form">
                                         <i class="fa fa-lock prefix"></i> <label for="form">Contraseña</label>
-                                        <input type="password" name="passwordReg" class="form-control" placeholder="Contraseña" required />
-                                       
+                                        <input type="password" name="passwordReg" class="form-control" placeholder="Contraseña" required />  
                                     </div>
+                                    <p>
                                     <p style="font-size:300%; text-align:center;">
                                     <div class="errorMsg"><?php echo $errorMsgReg; ?></div>
                                     <input type="submit" class="btn btn-success btn-lg" name="signupSubmit" value="Registrar">
