@@ -70,20 +70,24 @@ $userDetails=$userClass->userDetails($session_uid);
         <!-- /.container-fluid -->
     </nav>
 
-    <!-- Header -->
-    <header>
-        <div class="container">
+
+     <header>
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-text" style="font-size:70%;">
-                        <span class="name">Bienvenido <?php echo $userDetails->username; ?></span>
-                        <hr class="star-light">
-                        <span class="skills" >Continua con tus cursos</span>
-                    </div>
+                <p>
+                    <div class="col-lg-12 text-center">
+                    <h2>¡Bienvenido!</h2>
                 </div>
             </div>
-        </div>
     </header>
+
+<section>
+                <div class="col-lg-12 text-center">
+                    <h2>Bienvenido <?php echo $userDetails->username; ?></h2>
+                    <hr class="star-primary">
+                    <p>Continua con tus cursos</p>
+                </div>
+</section>
+
 
 <!-- Portfolio Grid Section -->
 <section id="portfolio">
