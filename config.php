@@ -2,10 +2,10 @@
 session_start();
 /* DATABASE CONFIGURATION */
 define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'username');
+define('DB_USERNAME', 'root');
 define('DB_PASSWORD', 'password');
-define('DB_DATABASE', 'databasename');
-define("BASE_URL", "http://localhost/PHPLoginHash/"); // Eg. http://yourwebsite.com
+define('DB_DATABASE', 'register');
+define("BASE_URL", "http://localhost/projects/proyectoInterfases/"); // Eg. http://yourwebsite.com
 
 
 function getDB() 

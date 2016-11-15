@@ -1,3 +1,9 @@
+<?php
+include('config.php');
+include('session.php');
+$userDetails=$userClass->userDetails($session_uid);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +15,7 @@
     <meta name="herramienta web para aprenden lengua de señas" content="">
     <meta name="Paulina Cruz y Corro Pérez" content="">
     <meta name="Pablo Antonio Peralta Sánchez" content="">
-    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+
     <title>..:: Manos ::..</title>
 
     <!-- Bootstrap Core CSS -->
@@ -38,16 +44,11 @@
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <img src="img/manos_icon.png" class="img-responsive" alt="" href="#page-top">
-             </div>
-
-
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">MANOS</a>
+                <a class="navbar-brand" href="#page-top">MANOS </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -59,11 +60,10 @@
                     <li class="page-scroll">
                         <a href="#portfolio">Lecciones</a>
                     </li>
+
                     <li class="page-scroll">
-                        <a href="#about">Acerca de Nosotros</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Registro/Inicio sesión</a>
+                        <button type="button" class="btn btn-danger btn-lg"><a href="<?php echo BASE_URL; ?>logout.php">Logout</a></button>
+                        
                     </li>
                 </ul>
             </div>
@@ -79,9 +79,9 @@
                 <div class="col-lg-12">
                     <img class="img-responsive" src="img/profile.png" alt="">
                     <div class="intro-text">
-                        <span class="name">MANOS</span>
+                        <span class="name">Bienvenido <?php echo $userDetails->username; ?></span>
                         <hr class="star-light">
-                        <span class="skills">Herramienta didáctica para aprender lengua de señas mexicana a través de actividades por niveles</span>
+                        <span class="skills">Continua con tus cursos</span>
                     </div>
                 </div>
             </div>
@@ -97,108 +97,13 @@
                     <hr class="star-primary">
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                Abecedario
-                            </div>
-                        </div>
-                        <img src="img/portfolio/menu_icons1.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                Animales
-                            </div>
-                        </div>
-                        <img src="img/portfolio/menu_icons4.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                Colores
-                            </div>
-                        </div>
-                        <img src="img/portfolio/menu_icons3.png" class="img-responsive" alt="">
-                    </a>
-                </div>
+           
             
             </div>
         </div>
-         <h3 class="col-lg-12 text-center">Tenemos 3 cursos disponibles ¡y más próximamente!</h3>
-    </section>
-
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Acerca de nosotros</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <p>¿Sabías qué La Ley General Para La Inclusión De Las Personas Con Discapacidad reconoce a la Lengua de Señas Mexicana como una lengua nacional y forma parte del patrimonio lingüístico con que cuenta la nación mexicana?</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>MANOS es una proyecto de Paulina Cruz y Corro Pérez y Pablo Antonio Peralta Sánchez. Somos alumnos de Ingeniería en Animación Digital en la Universidad Panamericana. Queremos acercar a todos los que quieran aprender este lenguaje a través de ejercicios dinámicos</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>En México hay unas 649.000 personas con discapacidad auditiva, de las cuales entre 300.000 y 500.000 se expresan mediante la lengua de señas mexicana (LSM)</p>
-                </div>
-            </div>
-        </div>
     </section>
 
 
-    <!-- Login -->
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Registro / Inicio de sesión</h2>
-                    <hr>    
-                </div>
-            </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-2">
-                    </div>
-                    <div class="col-md-4">
-                        <h3>
-                            Nuevos miembros
-                        </h3>
-                        <p>
-                           Si es la primera vez que nos visitas ¡Regístrate! Sólo necesitas un nombre de usuario, email y contraseña para poder acceder a nuestros cursos
-                        </p>
-                        <p>
-                           <a href='registration.php' button type="submit" class="btn btn-success btn-lg" value="Registrar" >Registrar</a>
-                        </p>
-                    </div>
-                    <div class="col-md-4">
-                        <h3>
-                            Usuarios registrados
-                        </h3>
-                        <p>
-                            Si ya estás registrado da click aquí para acceder a tu sesión y continuar con tu progreso 
-                        </p>
-                        <p>
-                            <a href='login.php' button type="submit" class="btn btn-success btn-lg" value="Registrar" >Iniciar sesión</a>
-                        </p>
-                    </div>
-                    <div class="col-md-2">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
 
     <!-- Footer -->
@@ -218,13 +123,19 @@
                                 <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
                             </li>
                             <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
                                 <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
                             </li>
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Contacto</h3>
-                        <p>¿Preguntas? ¿Bugs? ¿Comentarios? <a href="mailto:0169782@up.edu.mx?Subject=Herramienta%20Manos">Envíanos un mail!</a></p>
+                        <p>Preguntas? Bugs? Comentarios? <a href="mailto:0169782@up.edu.mx?Subject=Herramienta%20Manos">Envíanos un mail!</a></p>
                     </div>
                 </div>
             </div>
