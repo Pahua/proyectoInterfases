@@ -78,65 +78,67 @@ $userDetails=$userClass->userDetails($session_uid);
                     <div class="intro-text" style="font-size:70%;">
                         <span class="name">Bienvenido <?php echo $userDetails->username; ?></span>
                         <hr class="star-light">
-                        <span class="skills">Continua con tus cursos</span>
+                        <span class="skills" >Continua con tus cursos</span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
+<!-- Portfolio Grid Section -->
+<section id="portfolio">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Lecciones</h2>
-                    <hr class="star-primary">
-                </div>
+            <!-- MENU LECCIONES -->
+             <div class="col-lg-4">
+                    <h3>Ubicación</h3>
             </div>
-           
+
+            <!-- Portfolio Grid Section -->
+                <div class="col-lg-8">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                Vocales
+                            </div>
+                        </div>
+                        <img src="img/portfolio/menu_icons1.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                Animales Parte 1
+                            </div>
+                        </div>
+                        <img src="img/portfolio/menu_icons4.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                Animales Parte 2
+                            </div>
+                        </div>
+                        <img src="img/portfolio/menu_icons5.png" class="img-responsive" alt="">
+                    </a>
+                </div>
             
             </div>
-        </div>
-    </section>
 
+   
+
+
+    </div>
+
+</section>
 
 
 
     <!-- Footer -->
     <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Ubicación</h3>
-                        <p>Augusto Rodin 498
-                            <br>Benito Juárez, Insurgentes Mixcoac, 03920. Ciudad de México. </p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Manos en la web</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Contacto</h3>
-                        <p>Preguntas? Bugs? Comentarios? <a href="mailto:0169782@up.edu.mx?Subject=Herramienta%20Manos">Envíanos un mail!</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="footer-below">
             <div class="container">
                 <div class="row">
