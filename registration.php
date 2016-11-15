@@ -77,10 +77,10 @@ $errorMsgReg="Usuario o correo ya registrado. Por favor intenta de nuevo";
         <div class="container">
             <div class="navbar-header page-scroll">
                 <div class="col-md-6">
-                <img src="img/manos_icon.png" class="img-responsive" alt="Manos" href="#page-top">
+                <img src="img/manos_icon.png" class="img-responsive" alt="Manos" href="index.html">
                  </div>
                   <div class="col-md-6">
-                <a class="navbar-brand" href="#page-top">MANOS </a>    
+                <a class="navbar-brand" href="index.html">MANOS </a>    
                 </div>
             </div>
         </div>
