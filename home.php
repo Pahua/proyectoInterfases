@@ -45,10 +45,12 @@ $userDetails=$userClass->userDetails($session_uid);
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="#page-top">MANOS </a>
+                <div class="col-md-6">
+                <img src="img/manos_icon.png" class="img-responsive" alt="Manos" href="#page-top">
+                 </div>
+                  <div class="col-md-6">
+                <a class="navbar-brand" href="#page-top">MANOS </a>    
+                </div>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -57,10 +59,6 @@ $userDetails=$userClass->userDetails($session_uid);
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Lecciones</a>
-                    </li>
-
                     <li class="page-scroll">
                         <button type="button" class="btn btn-danger btn-lg"><a href="<?php echo BASE_URL; ?>logout.php">Logout</a></button>
                         
@@ -77,8 +75,7 @@ $userDetails=$userClass->userDetails($session_uid);
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
-                    <div class="intro-text">
+                    <div class="intro-text" style="font-size:70%;">
                         <span class="name">Bienvenido <?php echo $userDetails->username; ?></span>
                         <hr class="star-light">
                         <span class="skills">Continua con tus cursos</span>

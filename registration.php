@@ -44,7 +44,7 @@ $errorMsgReg="Usuario o correo ya registrado";
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="herramienta web para aprenden lengua de señas" content="">
+    <meta name="herramienta web para aprender lengua de señas" content="">
     <meta name="Paulina Cruz y Corro Pérez" content="">
     <meta name="Pablo Antonio Peralta Sánchez" content="">
 
@@ -75,36 +75,26 @@ $errorMsgReg="Usuario o correo ya registrado";
     <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <img src="img/manos_icon.png" class="img-responsive" alt="" href="#page-top">
-             </div>
-
-
             <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="#page-top">MANOS</a>
+                <div class="col-md-6">
+                <img src="img/manos_icon.png" class="img-responsive" alt="Manos" href="#page-top">
+                 </div>
+                  <div class="col-md-6">
+                <a class="navbar-brand" href="#page-top">MANOS </a>    
+                </div>
             </div>
-
-            
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a>Registro</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
     </nav>
 
+     <header>
+            <div class="row">
+                <p>
+                    <div class="col-lg-12 text-center">
+                    <h2>¡Bienvenido!</h2>
+                </div>
+            </div>
+    </header>
 
 
     <!-- Login -->
@@ -120,14 +110,21 @@ $errorMsgReg="Usuario o correo ya registrado";
                     <div class="row">
                         <div class="col-md-12">
                             <div class="row">
-                                <div class="col-md-4">
+                                <div class="col-lg-6">
+                                     <p>Para tener acceso a nuestros cursos es necesario que te registres. Sólo necesitas:</p>
+                                        <p> <ul style="list-style-type:square">
+                                          <li>Nombre de usuario</li>
+                                          <li>Correo válido</li>
+                                          <li>Contraseña</li>
+                                        </ul>
+                                    <p>¡No olvides tu contraseña! La necesitarás para volver a tus cursos</p> 
+                                     <p>
+                                    <p style="font-size:300%; text-align:center;">¡Muchas gracias por tu interés en aprender LSM!</p>
                                 </div>
-                                <div class="col-md-4">
+
+                                <div class="col-md-6">
                                     <div class="card">
                                     <!--Header-->
-
-                                
-                                    
                                     <div class="form-header purple darken-4">
                                         <h3><i class="fa fa-lock"></i> Registro:</h3>
                                     </div>
@@ -135,30 +132,29 @@ $errorMsgReg="Usuario o correo ya registrado";
                                     <div id="signup">
                                    <form method="post" action="" name="signup">
                                       <div class="md-form">
-                                        <i class="fa fa-user prefix"></i>
+                                        <i class="fa fa-user prefix"></i><label for="form">Usuario</label>
                                         <input type="text" name="usernameReg" class="form-control" placeholder="Nombre de usuario" required />
-                                        <label for="form">Usuario</label>
+                                        
                                     </div>
 
                                     <div class="md-form">
-                                        <i class="fa fa-envelope prefix"></i>
+                                        <i class="fa fa-envelope prefix"></i><label for="form">Email</label>
                                         <input type="text" name="emailReg" class="form-control" placeholder="Email" required />
-                                        <label for="form">Email</label>
+                                        
                                     </div>
 
                                     <div class="md-form">
-                                        <i class="fa fa-lock prefix"></i>
+                                        <i class="fa fa-lock prefix"></i> <label for="form">Contraseña</label>
                                         <input type="password" name="passwordReg" class="form-control" placeholder="Contraseña" required />
-                                        <label for="form">Contraseña</label>
+                                       
                                     </div>
+                                    <p style="font-size:300%; text-align:center;">
                                     <div class="errorMsg"><?php echo $errorMsgReg; ?></div>
                                     <input type="submit" class="btn btn-success btn-lg" name="signupSubmit" value="Registrar">
                                     </form>
                                     </div>
                                 </div>
                              </div>
-                          <div class="col-md-4">
-                          </div>
                         </div>
                     </div>
                   </div>
@@ -198,7 +194,7 @@ $errorMsgReg="Usuario o correo ya registrado";
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Contacto</h3>
-                        <p>Preguntas? Bugs? Comentarios? <a href="mailto:0169782@up.edu.mx?Subject=Herramienta%20Manos">Envíanos un mail!</a></p>
+                        <p>¿Preguntas? ¿Bugs? ¿Comentarios? <a href="mailto:0169782@up.edu.mx?Subject=Herramienta%20Manos">¡Envíanos un mail!</a></p>
                     </div>
                 </div>
             </div>
