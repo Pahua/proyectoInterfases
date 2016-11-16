@@ -73,18 +73,26 @@ $errorMsgReg="Usuario o correo ya registrado. Por favor intenta de nuevo";
 <body id="page-top" class="index">
 
     <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+   <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
         <div class="container">
-            <div class="navbar-header page-scroll">
-                <div class="col-md-6">
-                <img src="img/manos_icon.png" class="img-responsive" alt="Manos" href="index.html">
-                 </div>
-                  <div class="col-md-6">
-                <a class="navbar-brand" href="index.html">MANOS </a>    
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="col-md-1">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <img src="img/manos_icon2.png" class="img-responsive" alt="" href="#page-top">   
                 </div>
             </div>
-        </div>
-        <!-- /.container-fluid -->
+
+            <div class="col-md-1">
+                <a class="navbar-brand" href="index.html">MANOS</a>
+            </div>
+
+
+            <div class="col-md-1">
+                <div class="navbar-header page-scroll">
+                    
+                </div>
+            </div>
+            </div>
     </nav>
 
      <header>
@@ -126,24 +134,24 @@ $errorMsgReg="Usuario o correo ya registrado. Por favor intenta de nuevo";
                                     <div class="card">
                                     <!--Header-->
                                     <div class="form-header purple darken-4">
-                                        <h3><i class="fa fa-lock"></i> Registro:</h3>
+                                        <h3><i class="fa fa-lock"></i>&nbsp; Registro:</h3>
                                     </div>
                                     <!--FORM-->
                                     <div id="signup">
                                    <form method="post" action="" name="signup">
                                       <div class="md-form">
-                                        <i class="fa fa-user prefix"></i><label for="form">Usuario</label>
+                                        <i class="fa fa-user prefix"></i><label for="form">&nbsp; Usuario</label>
                                         <input type="text" name="usernameReg" class="form-control" placeholder="Nombre de usuario" required />
                                         
                                     </div>
                                     <p>
                                     <div class="md-form">
-                                        <i class="fa fa-envelope prefix"></i><label for="form">Email</label>
+                                        <i class="fa fa-envelope prefix"></i><label for="form">&nbsp; Email</label>
                                         <input type="text" name="emailReg" class="form-control" placeholder="Email" required />
                                     </div>
                                     <p>
                                     <div class="md-form">
-                                        <i class="fa fa-lock prefix"></i> <label for="form">Contraseña</label>
+                                        <i class="fa fa-lock prefix"></i> <label for="form">&nbsp; Contraseña</label>
                                         <input type="password" name="passwordReg" class="form-control" placeholder="Contraseña" required />  
                                     </div>
                                     <p>
@@ -181,13 +189,7 @@ $errorMsgReg="Usuario o correo ya registrado. Por favor intenta de nuevo";
                                 <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                            </li>
-                            <li>
                                 <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
                             </li>
                         </ul>
                     </div>

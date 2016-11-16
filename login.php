@@ -36,7 +36,7 @@ $errorMsgLogin="Hubo un error. Por favor revisa tus datos";
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="herramienta web para aprenden lengua de señas" content="">
+    <meta name="herramienta web para aprender lengua de señas" content="">
     <meta name="Paulina Cruz y Corro Pérez" content="">
     <meta name="Pablo Antonio Peralta Sánchez" content="">
 
@@ -65,18 +65,26 @@ $errorMsgLogin="Hubo un error. Por favor revisa tus datos";
 <body id="page-top" class="index">
 
     <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+   <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
         <div class="container">
-            <div class="navbar-header page-scroll">
-                <div class="col-md-6">
-                <img src="img/manos_icon.png" class="img-responsive" alt="Manos" href="#page-top">
-                 </div>
-                  <div class="col-md-6">
-                <a class="navbar-brand" href="#page-top">MANOS </a>    
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="col-md-1">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <img src="img/manos_icon2.png" class="img-responsive" alt="" href="#page-top">   
                 </div>
             </div>
-        </div>
-        <!-- /.container-fluid -->
+
+            <div class="col-md-1">
+                <a class="navbar-brand" href="index.html">MANOS</a>
+            </div>
+
+
+            <div class="col-md-1">
+                <div class="navbar-header page-scroll">
+                    
+                </div>
+            </div>
+            </div>
     </nav>
 
      <header>
@@ -107,18 +115,18 @@ $errorMsgLogin="Hubo un error. Por favor revisa tus datos";
                                 <div class="col-md-4">
                                     <div class="card">  
                                     <div class="form-header purple darken-4">
-                                        <h3><i class="fa fa-lock"></i> Inicio sesión:</h3>
+                                        <h3><i class="fa fa-lock"></i>&nbsp; Inicio sesión:</h3>
                                     </div>
                                     <!--FORM-->
                                     <div id="login">
                                    <form method="post" action="" name="signup">
                                       <div class="md-form">
-                                        <i class="fa fa-user prefix"></i> <label for="form"> Usuario/Email</label>
+                                        <i class="fa fa-user prefix"></i> <label for="form">&nbsp; Usuario/Email</label>
                                         <input type="text" name="usernameEmail" class="form-control" placeholder="Usuario / Email" required />
                                     </div>
                                     <p>
                                     <div class="md-form">
-                                        <i class="fa fa-lock prefix"></i><label for="form">Contraseña</label>
+                                        <i class="fa fa-lock prefix"></i><label for="form">&nbsp; Contraseña</label>
                                         <input type="password" name="password" class="form-control" placeholder="Contraseña" required /> 
                                     </div>
                                     <p>
@@ -157,13 +165,7 @@ $errorMsgLogin="Hubo un error. Por favor revisa tus datos";
                                 <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                            </li>
-                            <li>
                                 <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
                             </li>
                         </ul>
                     </div>

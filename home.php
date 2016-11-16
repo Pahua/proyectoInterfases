@@ -12,7 +12,7 @@ $userDetails=$userClass->userDetails($session_uid);
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="herramienta web para aprenden lengua de señas" content="">
+    <meta name="herramienta web para aprendeR lengua de señas" content="">
     <meta name="Paulina Cruz y Corro Pérez" content="">
     <meta name="Pablo Antonio Peralta Sánchez" content="">
 
@@ -43,13 +43,20 @@ $userDetails=$userClass->userDetails($session_uid);
     <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <div class="col-md-6">
-                <img src="img/manos_icon.png" class="img-responsive" alt="Manos" href="#page-top">
-                 </div>
-                  <div class="col-md-6">
-                <a class="navbar-brand" href="#page-top">MANOS </a>    
+              <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="col-md-1">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <img src="img/manos_icon2.png" class="img-responsive" alt="" href="#page-top">   
+                </div>
+            </div>
+
+            <div class="col-md-1">
+                <a class="navbar-brand" href="#page-top">MANOS</a>
+            </div>
+
+
+            <div class="col-md-1">
+                <div class="navbar-header page-scroll"> 
                 </div>
             </div>
 
@@ -82,7 +89,7 @@ $userDetails=$userClass->userDetails($session_uid);
 
 <section>
                 <div class="col-lg-12 text-center">
-                    <h2>Bienvenido <?php echo $userDetails->username; ?></h2>
+                    <h2>Bienvenid@,  <?php echo $userDetails->username; ?></h2>
                     <hr class="star-primary">
                     <p>Continua con tus cursos</p>
                 </div>
