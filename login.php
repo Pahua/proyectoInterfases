@@ -39,6 +39,7 @@ $errorMsgLogin="Hubo un error. Por favor revisa tus datos";
     <meta name="herramienta web para aprender lengua de señas" content="">
     <meta name="Paulina Cruz y Corro Pérez" content="">
     <meta name="Pablo Antonio Peralta Sánchez" content="">
+    <link rel='shortcut icon' href='favicon2.ico' type='image/x-icon'/ >
 
     <title>..:: Manos ::..</title>
 

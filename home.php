@@ -15,6 +15,7 @@ $userDetails=$userClass->userDetails($session_uid);
     <meta name="herramienta web para aprendeR lengua de señas" content="">
     <meta name="Paulina Cruz y Corro Pérez" content="">
     <meta name="Pablo Antonio Peralta Sánchez" content="">
+    <link rel='shortcut icon' href='favicon2.ico' type='image/x-icon'/ >
 
     <title>..:: Manos ::..</title>
 
