@@ -26,14 +26,14 @@ $userDetails=$userClass->userDetails($session_uid);
     <link href="css/freelancer.css" rel="stylesheet">
 
     <!-- EXE LEARNING -->
-    <link rel="stylesheet" type="text/css" href="css/content.css" />
-    <!--<link rel="stylesheet" type="text/css" href="css/nav2.css" /> -->
+    <link rel="stylesheet" type="text/css" href="cursos/css/content.css" />
 
     <script type="text/javascript" src="cursos/js/exe_jquery.js"></script>
     <script type="text/javascript">$exe_i18n={previous:"Anterior",next:"Siguiente",show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú",print:"Imprimir"}</script>
     <script type="text/javascript" src="cursos/js/common.js"></script>
-    <script type="text/javascript" src="cursos/js/_fpd_js.js"></script>
      <!-- FIN EXE LEARNING -->
+
+
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -51,7 +51,7 @@ $userDetails=$userClass->userDetails($session_uid);
 
 <body id="page-top" class="index">
 
-  <!-- Navigation -->
+    <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
         <div class="container">
               <!-- Brand and toggle get grouped for better mobile display -->
@@ -74,7 +74,7 @@ $userDetails=$userClass->userDetails($session_uid);
 
 
              <div class="col-md-5 text-center" style="color:white; font-size:150%;">
-                <h2>Bienvenid@  <?php echo $userDetails->username; ?></h2>
+                <h2>Bienvenid@,  <?php echo $userDetails->username; ?></h2>
             </div>
 
 
@@ -112,10 +112,11 @@ $userDetails=$userClass->userDetails($session_uid);
         <div class="container">
             <!-- MENU LECCIONES -->
              <div class="col-lg-4">
+                    <h3>Ubicación</h3>
                         <div id="siteNav">
                         <ul>
                            <li id="active"><a href="home.php" class="active daddy main-node">Inicio</a></li>
-                           <li><a href="vocales.php" class="daddy">Vocales</a>
+                           <li><a href="cursos/letras.html" class="daddy">Letras</a>
                            <ul class="other-section">
                               <li><a href="letpreg1.html" class="no-ch">letpreg1</a></li>
                               <li><a href="letpreg2.html" class="no-ch">letpreg2</a></li>
@@ -149,7 +150,7 @@ $userDetails=$userClass->userDetails($session_uid);
             <!-- Portfolio Grid Section -->
                 <div class="col-lg-8">
                 <div class="col-sm-4 portfolio-item">
-                    <a href="vocales.php" class="portfolio-link" data-toggle="modal">
+                    <a href="cursos/letras.html" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 Vocales
@@ -179,33 +180,33 @@ $userDetails=$userClass->userDetails($session_uid);
                     </a>
                 </div>
                  <div class="col-sm-4 portfolio-item">
-                    <a href="" class="portfolio-link" data-toggle="modal">
+                    <a href="cursos/animales_2.html" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                Colores - Próximamente
+                                Animales Parte 2
                             </div>
                         </div>
-                        <img src="img/portfolio/menu_icons3.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/menu_icons5.png" class="img-responsive" alt="">
                     </a>
                 </div>
                  <div class="col-sm-4 portfolio-item">
-                    <a href="c" class="portfolio-link" data-toggle="modal">
+                    <a href="cursos/animales_2.html" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                Familia - Próximamente
+                                Animales Parte 2
                             </div>
                         </div>
-                        <img src="img/portfolio/menu_icons6.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/menu_icons5.png" class="img-responsive" alt="">
                     </a>
                 </div>
                  <div class="col-sm-4 portfolio-item">
-                    <a href="" class="portfolio-link" data-toggle="modal">
+                    <a href="cursos/animales_2.html" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                              Países  - Próximamente
+                                Animales Parte 2
                             </div>
                         </div>
-                        <img src="img/portfolio/menu_icons7.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/menu_icons5.png" class="img-responsive" alt="">
                     </a>
                 </div>
             
@@ -213,7 +214,6 @@ $userDetails=$userClass->userDetails($session_uid);
 
     </div>
 </section>
-
 
 
 
@@ -230,7 +230,7 @@ $userDetails=$userClass->userDetails($session_uid);
         </div>
     </footer>
 
-
+    
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
     <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
         <a class="btn btn-primary" href="#page-top">

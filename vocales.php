@@ -111,7 +111,7 @@ $userDetails=$userClass->userDetails($session_uid);
 <section id="portfolio">
         <div class="container">
             <!-- MENU LECCIONES -->
-             <div class="col-lg-4">
+             <div class="col-lg-4" >
                         <div id="siteNav">
                         <ul>
                            <li id="active"><a href="home.php" class="active daddy main-node">Inicio</a></li>
@@ -146,74 +146,32 @@ $userDetails=$userClass->userDetails($session_uid);
                         </div>
         </div>
 
-            <!-- Portfolio Grid Section -->
-                <div class="col-lg-8">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="vocales.php" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                Vocales
-                            </div>
-                        </div>
-                        <img src="img/portfolio/menu_icons1.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="cursos/animales_1.html" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                Animales Parte 1
-                            </div>
-                        </div>
-                        <img src="img/portfolio/menu_icons4.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="cursos/animales_2.html" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                Animales Parte 2
-                            </div>
-                        </div>
-                        <img src="img/portfolio/menu_icons5.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                 <div class="col-sm-4 portfolio-item">
-                    <a href="" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                Colores - Próximamente
-                            </div>
-                        </div>
-                        <img src="img/portfolio/menu_icons3.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                 <div class="col-sm-4 portfolio-item">
-                    <a href="c" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                Familia - Próximamente
-                            </div>
-                        </div>
-                        <img src="img/portfolio/menu_icons6.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                 <div class="col-sm-4 portfolio-item">
-                    <a href="" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                              Países  - Próximamente
-                            </div>
-                        </div>
-                        <img src="img/portfolio/menu_icons7.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-            
-               
+            <!-- COMIENZA EXE -->
+           <div id="main-wrapper">
+              <div id="main"><a name="main"></a>
+              <div id="nodeDecoration" align="center"><h1 id="nodeTitle">Vocales</h1></div><p>
+              <div class="iDevice_wrapper AppletIdevice" id="id0">
+              <div class="iDevice emphasis0" >
+              <div class="iDevice_content">
+              <center><iframe width="560" height="315" src="https://www.youtube.com/embed/C-sTtdga7po?autoplay=1" frameborder="0" allowfullscreen></iframe></center>
+              </div>
+              </div>
+              </div>
+              </div>
+           </div>
+           <div id='bottomPagination' align="center">
+              <div class="pagination noprt" align="center">
+                
+              <li><a href="letpreg1.html" class="no-ch"><span>Comenzar lección<span> &raquo;</span></span></a></li>
+              </div>
+           </div>
+
+   
+
 
     </div>
-</section>
 
+</section>
 
 
 
