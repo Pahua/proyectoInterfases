@@ -609,6 +609,20 @@ fieldset[disabled] .btn-success.active {
   text-decoration: none;
 }
 
+/* NUEVO BOTON REDONDO*/
+.pagination .Nbutton{
+  color: #DEEDFA;
+  background-color: #2C3E50;
+  padding: 14px 14px 14px 14px;
+  font-weight: bold;
+  border-radius: 0.5em 0.5em 0.5em 0.5em;
+}
+.pagination .Nbutton:hover{
+  color: #044085;
+  background-color:#C3DCF7;
+  text-decoration: none;
+}
+
 /* Invisible content (visible for screen reader users) */
 #topPagination{
   position:absolute;

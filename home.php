@@ -124,7 +124,7 @@ $userDetails=$userClass->userDetails($session_uid);
                               <li><a href="letpreg5.html" class="no-ch">letpreg5</a></li>
                            </ul>
                            </li>
-                           <li><a href="cursos/animales_1.html" class="daddy">Animales 1</a>
+                           <li><a href="animales1.php" class="daddy">Animales - Parte 1</a>
                            <ul class="other-section">
                               <li><a href="an1preg1.html" class="no-ch">An1preg1</a></li>
                               <li><a href="an1preg2.html" class="no-ch">An1preg2</a></li>
@@ -133,7 +133,7 @@ $userDetails=$userClass->userDetails($session_uid);
                               <li><a href="an1preg5.html" class="no-ch">An1preg5</a></li>
                            </ul>
                            </li>
-                           <li><a href="cursos/animales_2.html" class="daddy">Animales 2</a>
+                           <li><a href="animales2.php" class="daddy">Animales - Parte 2</a>
                            <ul class="other-section">
                               <li><a href="an2preg1.html" class="no-ch">An2preg1</a></li>
                               <li><a href="an2preg2.html" class="no-ch">An2preg2</a></li>
@@ -159,7 +159,7 @@ $userDetails=$userClass->userDetails($session_uid);
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="cursos/animales_1.html" class="portfolio-link" data-toggle="modal">
+                    <a href="animales1.php" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 Animales Parte 1
@@ -169,7 +169,7 @@ $userDetails=$userClass->userDetails($session_uid);
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="cursos/animales_2.html" class="portfolio-link" data-toggle="modal">
+                    <a href="animales2.php" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 Animales Parte 2

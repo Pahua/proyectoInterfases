@@ -117,11 +117,11 @@ $userDetails=$userClass->userDetails($session_uid);
                            <li id="active"><a href="home.php" class="active daddy main-node">Inicio</a></li>
                            <li><a href="vocales.php" class="daddy">Vocales</a>
                            <ul class="other-section">
-                              <li><a href="letpreg1.html" class="no-ch">1</a></li>
-                              <li><a href="letpreg2.html" class="no-ch">2</a></li>
-                              <li><a href="letpreg3.html" class="no-ch">3</a></li>
-                              <li><a href="letpreg4.html" class="no-ch">4</a></li>
-                              <li><a href="letpreg5.html" class="no-ch">5</a></li>
+                              <li><a href="letpreg1.html" class="no-ch">letpreg1</a></li>
+                              <li><a href="letpreg2.html" class="no-ch">letpreg2</a></li>
+                              <li><a href="letpreg3.html" class="no-ch">letpreg3</a></li>
+                              <li><a href="letpreg4.html" class="no-ch">letpreg4</a></li>
+                              <li><a href="letpreg5.html" class="no-ch">letpreg5</a></li>
                            </ul>
                            </li>
                            <li><a href="cursos/animales_1.html" class="daddy">Animales 1</a>
@@ -149,13 +149,11 @@ $userDetails=$userClass->userDetails($session_uid);
             <!-- COMIENZA EXE -->
              <div id="main-wrapper">
                 <div id="main"><a name="main"></a>
-                <div id="nodeDecoration" align="center"><h1 id="nodeTitle">Vocales</h1></div><p>
+                <div id="nodeDecoration" align="center"><h1 id="nodeTitle">Animales - Parte 2</h1></div><p>
                   <div class="iDevice_wrapper AppletIdevice" id="id0">
                     <div class="iDevice emphasis0" >
                         <div class="iDevice_content">
-                        <center>
-                          <iframe width="560" height="315" src="https://www.youtube.com/embed/C-sTtdga7po?autoplay=1" frameborder="0" allowfullscreen></iframe>
-                        </center>
+                        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/s4YE2vivYeY?rel=0" frameborder="0" allowfullscreen></iframe></center>
                         </div>
                     </div>
                   </div>
