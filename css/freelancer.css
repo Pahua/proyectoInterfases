@@ -586,9 +586,9 @@ fieldset[disabled] .btn-success.active {
 .pagination .prev{
   color: #DEEDFA;
   background-color:#2C3E50;
-  padding: 4px 4px 4px 18px;
+  padding: 14px 14px 14px 14px;
   font-weight: bold;
-  border-radius: 1em 0 0 1em;
+ border-radius: 0.5em 0.5em 0.5em 0.5em;
 }
 .pagination .prev:hover{
   color: #044085;
@@ -599,9 +599,9 @@ fieldset[disabled] .btn-success.active {
   /*boton siguiente*/
   color: #DEEDFA;
   background-color: #2C3E50;
-  padding: 4px 18px 4px 4px;
+  padding: 14px 14px 14px 14px;
   font-weight: bold;
-  border-radius: 0 1em 1em 0;
+ border-radius: 0.5em 0.5em 0.5em 0.5em;
 }
 .pagination .next:hover{
   color: #044085;
@@ -787,3 +787,7 @@ fieldset[disabled] .btn-success.active {
     margin-left: 0px;
   }
 }
+
+
+/* idevices */
+ 

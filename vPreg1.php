@@ -12,7 +12,7 @@ $userDetails=$userClass->userDetails($session_uid);
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="herramienta web para aprendeR lengua de señas" content="">
+    <meta name="herramienta web para aprender lengua de señas" content="">
     <meta name="Paulina Cruz y Corro Pérez" content="">
     <meta name="Pablo Antonio Peralta Sánchez" content="">
     <link rel='shortcut icon' href='favicon2.ico' type='image/x-icon'/ >
@@ -26,13 +26,14 @@ $userDetails=$userClass->userDetails($session_uid);
     <link href="css/freelancer.css" rel="stylesheet">
 
     <!-- EXE LEARNING -->
-    <link rel="stylesheet" type="text/css" href="css/content.css" />
     <!--<link rel="stylesheet" type="text/css" href="css/nav2.css" /> -->
 
-    <script type="text/javascript" src="cursos/js/exe_jquery.js"></script>
-    <script type="text/javascript">$exe_i18n={previous:"Anterior",next:"Siguiente",show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú",print:"Imprimir"}</script>
-    <script type="text/javascript" src="cursos/js/common.js"></script>
-    <script type="text/javascript" src="cursos/js/_fpd_js.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/content.css" /> 
+
+    <script type="text/javascript" src="jsX/exe_jquery.js"></script>
+    <script type="text/javascript" src="jsX/common.js"></script>
+
      <!-- FIN EXE LEARNING -->
 
     <!-- Custom Fonts -->
@@ -49,8 +50,8 @@ $userDetails=$userClass->userDetails($session_uid);
 
 </head>
 
-<body id="page-top" class="index">
-
+<body id="page-top" class="index" >-<script type="text/javascript">document.body.className+=" js"</script>
+<!--<body class="exe-web-site"><script type="text/javascript">document.body.className+=" js"</script>->
   <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
         <div class="container">
@@ -77,24 +78,18 @@ $userDetails=$userClass->userDetails($session_uid);
                 <h2>Bienvenid@  <?php echo $userDetails->username; ?></h2>
             </div>
 
-
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
+            <ul class="nav navbar-nav navbar-right">
                     <li class="page-scroll">
                         <button type="button" class="btn btn-danger btn-lg"><a href="<?php echo BASE_URL; ?>logout.php">Logout</a></button>
                         
                     </li>
                 </ul>
-            </div>
+
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
     </nav>
+
 
 <!-- Portfolio Grid Section -->
 <section id="portfolio">
@@ -107,11 +102,11 @@ $userDetails=$userClass->userDetails($session_uid);
                            <li id="active"><a href="home.php" class="active daddy main-node">Inicio</a></li>
                            <li><a href="vocales.php" class="daddy">Vocales</a>
                            <ul class="other-section">
-                              <li><a href="vPreg1.php" class="no-ch">1</a></li>
-                              <li><a href="vPreg2.php" class="no-ch">2</a></li>
-                              <li><a href="vPreg3.php" class="no-ch">3</a></li>
-                              <li><a href="vPreg4.php" class="no-ch">4</a></li>
-                              <li><a href="vPreg5.php" class="no-ch">5</a></li>
+                              <li><a href="letpreg1.html" class="no-ch">1</a></li>
+                              <li><a href="letpreg2.html" class="no-ch">2</a></li>
+                              <li><a href="letpreg3.html" class="no-ch">3</a></li>
+                              <li><a href="letpreg4.html" class="no-ch">4</a></li>
+                              <li><a href="letpreg5.html" class="no-ch">5</a></li>
                            </ul>
                            </li>
                            <li><a href="cursos/animales_1.html" class="daddy">Animales 1</a>
@@ -135,29 +130,86 @@ $userDetails=$userClass->userDetails($session_uid);
                         </ul>
                         </div>
           </div>
-          <div class="col-lg-8" >
-            <!-- COMIENZA EXE -->
-             <div id="main-wrapper">
-                <div id="main"><a name="main"></a>
-                <div id="nodeDecoration" align="center"><h1 id="nodeTitle">Vocales</h1></div><p>
-                  <div class="iDevice_wrapper AppletIdevice" id="id0">
-                    <div class="iDevice emphasis0" >
-                        <div class="iDevice_content">
-                        <center>
-                          <iframe width="560" height="315" src="https://www.youtube.com/embed/C-sTtdga7po?autoplay=1" frameborder="0" allowfullscreen></iframe>
-                        </center>
-                        </div>
-                    </div>
-                  </div>
-                </div>
-            </div>  
+    <div class="col-lg-8">
 
-               <div id='bottomPagination' align="center">
-                <div class="pagination noprt">
-                  <a href="vPreg1.php" class="Nbutton"><span><span></span>Comenzar lección</span></a>
+    <div class="iDevice_wrapper MultichoiceIdevice em_iDevice" id="id21">
+    <div class="iDevice emphasis1">
+    <div class="question">
+      <form name="multi-choice-form-21_86" action="#" onsubmit="return false" class="activity-form">
+      <div id="taquestion21_86" class="block question iDevice_content">
+      
+      <p style="text-align: center;"><span style="font-size: x-large;">¿Qué letra es?</span></p>
+      <p style="text-align: center;"><img src="http://i.imgur.com/fC6pCUp.gif" width="390" height="220" /></p>      </div>
+        
+        <div class="iDevice_answer">
+          <p class="iDevice_answer-field js-required">
+          <label for="i21_89" class="sr-av"><a href="#answer-21_89">Opción 1</a></label><input type="radio" name="option21_86" id="i21_89" onclick="$exe.getFeedback(0,3,'21_86','multi')"/>
+          </p>
+          <div class="iDevice_answer-content" id="answer-21_89"><a name="answer-21_89"></a>
+          <div id="taans21_89" class="block iDevice_content">
+          <p><span style="font-size: large;">U</span></p>
+          </div>
+          </div>
+        </div>
+        <div class="iDevice_answer">
+          <p class="iDevice_answer-field js-required">
+          <label for="i21_197" class="sr-av"><a href="#answer-21_197">Opción 2</a></label><input type="radio" name="option21_86" id="i21_197" onclick="$exe.getFeedback(1,3,'21_86','multi')"/>
+          </p>
+          <div class="iDevice_answer-content" id="answer-21_197"><a name="answer-21_197"></a>
+          <div id="taans21_197" class="block iDevice_content">
+          <p><span style="font-size: large;">W</span></p>
+          </div>
+          </div>
+        </div>
+        <div class="iDevice_answer">
+          <p class="iDevice_answer-field js-required">
+          <label for="i21_200" class="sr-av"><a href="#answer-21_200">Opción 3</a></label><input type="radio" name="option21_86" id="i21_200" onclick="$exe.getFeedback(2,3,'21_86','multi')"/>
+          </p>
+          <div class="iDevice_answer-content" id="answer-21_200"><a name="answer-21_200"></a>
+          <div id="taans21_200" class="block iDevice_content">
+          <p><span style="font-size: large;">P</span></p>
+          </div>
+          </div>
+          </div>
+      </div> <!-- FIN PREGUNTAS --> 
+      <div class="iDevice_feedbacks js-feedback">
+          <h4 class="js-sr-av">Retroalimentación</h4>
+            <div id="sa0b21_86" class="feedback js-hidden"><a name="sa0b21_86"></a>
+            <div id="taf21_89" class=" iDevice_content">
+            <p>¡Correcto!</p>
+            </div>
+            </div>
+            <div id="sa1b21_86" class="feedback js-hidden"><a name="sa1b21_86"></a>
+            <div id="taf21_197" class=" iDevice_content">
+            <p>Incorrecto</p>
+            </div>
+            </div>
+            <div id="sa2b21_86" class="feedback js-hidden"><a name="sa2b21_86"></a>
+            <div id="taf21_200" class=" iDevice_content">
+            <p>Incorrecto</p>
+            </div>
+        </div>
+      </form>
+          <div class="iDevice_solution feedback js-hidden">
+          <h4>Solución</h4>
+            <ol>
+            <li><a href="#answer-21_89">Opción correcta</a><span> (<a href="#sa0b21_86">Retroalimentación</a>)</span></li>
+            <li><a href="#answer-21_197">Incorrecto</a><span> (<a href="#sa1b21_86">Retroalimentación</a>)</span></li>
+            <li><a href="#answer-21_200">Incorrecto</a><span> (<a href="#sa2b21_86">Retroalimentación</a>)</span></li>
+            </ol>
+          </div>
+      </div><!-- FIN FEEDBACK --> 
+     </div>
+      </div>
+
+      <div id='bottomPagination' align="center">
+                     <div class="pagination noprt" align="center">
+                     <a href="letras.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="letpreg2.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+                     </div>
                 </div>
-              </div>
-</div>        
+          </div>        
+
+</div>  
 </section>
 
 
@@ -198,6 +250,9 @@ $userDetails=$userClass->userDetails($session_uid);
 
     <!-- Theme JavaScript -->
     <script src="js/freelancer.min.js"></script>
+
+    <script type="text/javascript" src="jsX/_fpd_js.js"></script>
+
 
 </body>
 
