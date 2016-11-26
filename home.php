@@ -77,39 +77,24 @@ $userDetails=$userClass->userDetails($session_uid);
                 <h2>Bienvenid@  <?php echo $userDetails->username; ?></h2>
             </div>
 
-
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
+            <ul class="nav navbar-nav navbar-right" align="center">
                     <li class="page-scroll">
-                        <button type="button" class="btn btn-danger btn-lg"><a href="<?php echo BASE_URL; ?>logout.php">Logout</a></button>
-                        
+                        <button type="button" class="btn btn-danger btn-lg"><a href="<?php echo BASE_URL; ?>logout.php">Salir</a></button>       
                     </li>
                 </ul>
-            </div>
+
+
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
     </nav>
 
 
-     <header>
-            <div class="row">
-                <p>
-                    <div class="col-lg-12 text-center">
-                    <h2>¡Bienvenido!</h2>
-                </div>
-            </div>
-    </header>
-
 
 <!-- Portfolio Grid Section -->
 <section id="portfolio">
         <div class="container">
+            <p>
             <!-- MENU LECCIONES -->
              <div class="col-lg-4">
                         <div id="siteNav">
@@ -118,10 +103,10 @@ $userDetails=$userClass->userDetails($session_uid);
                            <li><a href="vocales.php" class="daddy">Vocales</a>
                            <ul class="other-section">
                               <li><a href="vPreg1.php" class="no-ch">1</a></li>
-                              <li><a href="letpreg2.html" class="no-ch">2</a></li>
-                              <li><a href="letpreg3.html" class="no-ch">3</a></li>
-                              <li><a href="letpreg4.html" class="no-ch">4</a></li>
-                              <li><a href="letpreg5.html" class="no-ch">5</a></li>
+                              <li><a href="vPreg2.php" class="no-ch">2</a></li>
+                              <li><a href="vPreg3.php" class="no-ch">3</a></li>
+                              <li><a href="vPreg4.php" class="no-ch">4</a></li>
+                              <li><a href="vPreg5.php" class="no-ch">5</a></li>
                            </ul>
                            </li>
                            <li><a href="animales1.php" class="daddy">Animales - Parte 1</a>
@@ -142,6 +127,9 @@ $userDetails=$userClass->userDetails($session_uid);
                               <li><a href="an2preg5.html" class="no-ch">An2preg5</a></li>
                            </ul>
                            </li>
+                           <li><a href="" class="daddy">Colores - Próximamente</a></li>
+                           <li><a href="" class="daddy">Familia - Próximamente</a></li>
+                           <li><a href="" class="daddy">Países - Próximamente</a></li>
                         </ul>
                         </div>
         </div>
