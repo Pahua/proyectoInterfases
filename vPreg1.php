@@ -97,50 +97,66 @@ $userDetails=$userClass->userDetails($session_uid);
            <p>
             <!-- MENU LECCIONES -->
              <div class="col-lg-4" >
-                        <div id="siteNav">
+                     <div id="siteNav">
                         <ul>
-                           <li id="active"><a href="home.php" class="active daddy main-node">Inicio</a></li>
-                           <li><a href="vocales.php" class="daddy">Vocales</a>
-                           <ul class="other-section">
-                              <li><a href="letpreg1.html" class="no-ch">1</a></li>
-                              <li><a href="letpreg2.html" class="no-ch">2</a></li>
-                              <li><a href="letpreg3.html" class="no-ch">3</a></li>
-                              <li><a href="letpreg4.html" class="no-ch">4</a></li>
-                              <li><a href="letpreg5.html" class="no-ch">5</a></li>
+                           <li><a href="home.php" class="daddy main-node">Inicio</a></li>
+                           <li class="current-page-parent"><a href="vocales.php" class="current-page-parent daddy">Vocales</a>
+                           <ul>
+                              <li id="active"><a href="vPreg1.php" class="active no-ch">1</a></li>
+                              <li><a href="vPreg2.php" class="no-ch">2</a></li>
+                              <li><a href="vPreg3.php" class="no-ch">3</a></li>
+                              <li><a href="vPreg4.php" class="no-ch">4</a></li>
+                              <li><a href="vPreg5.php" class="no-ch">5</a></li>
                            </ul>
                            </li>
-                           <li><a href="cursos/animales_1.html" class="daddy">Animales 1</a>
+                           <li><a href="animales1.php" class="daddy">Animales - Parte 1</a>
                            <ul class="other-section">
-                              <li><a href="an1preg1.html" class="no-ch">An1preg1</a></li>
-                              <li><a href="an1preg2.html" class="no-ch">An1preg2</a></li>
-                              <li><a href="an1preg3.html" class="no-ch">An1preg3</a></li>
-                              <li><a href="an1preg4.html" class="no-ch">An1preg4</a></li>
-                              <li><a href="an1preg5.html" class="no-ch">An1preg5</a></li>
+                              <li><a href="an1Preg1.php" class="no-ch">1</a></li>
+                              <li><a href="an1Preg2.php" class="no-ch">2</a></li>
+                              <li><a href="an1Preg3.php" class="no-ch">3</a></li>
+                              <li><a href="an1Preg4.php" class="no-ch">4</a></li>
+                              <li><a href="an1Preg5.php" class="no-ch">5</a></li>
                            </ul>
                            </li>
-                           <li><a href="cursos/animales_2.html" class="daddy">Animales 2</a>
+                           <li><a href="animales2.php" class="daddy">Animales - Parte 2</a>
                            <ul class="other-section">
-                              <li><a href="an2preg1.html" class="no-ch">An2preg1</a></li>
-                              <li><a href="an2preg2.html" class="no-ch">An2preg2</a></li>
-                              <li><a href="an2preg3.html" class="no-ch">An2preg3</a></li>
-                              <li><a href="an2preg4.html" class="no-ch">An2preg4</a></li>
-                              <li><a href="an2preg5.html" class="no-ch">An2preg5</a></li>
+                              <li><a href="an2Preg1.php" class="no-ch">1</a></li>
+                              <li><a href="an2Preg2.php" class="no-ch">2</a></li>
+                              <li><a href="an2Preg3.php" class="no-ch">3</a></li>
+                              <li><a href="an2Preg4.php" class="no-ch">4</a></li>
+                              <li><a href="an2Preg5.php" class="no-ch">5</a></li>
                            </ul>
                            </li>
+                           <li><a href="home.php"  class="daddy">Colores - Próximamente</a></li>
+                           <li><a href="home.php"  class="daddy">Familia - Próximamente</a></li>
+                           <li><a href="home.php"  class="daddy">Países - Próximamente</a></li>
                         </ul>
                         </div>
           </div>
-    <div class="col-lg-8">
 
-    <div class="iDevice_wrapper MultichoiceIdevice em_iDevice" id="id21">
-    <div class="iDevice emphasis1">
+
+<div class="col-lg-5">
+<div class="iDevice_wrapper MultichoiceIdevice em_iDevice" id="id4">
+<div class="iDevice emphasis1" >
+
     <div class="question">
       <form name="multi-choice-form-21_86" action="#" onsubmit="return false" class="activity-form">
-      <div id="taquestion21_86" class="block question iDevice_content">
-      
-      <p style="text-align: center;"><span style="font-size: x-large;">¿Qué letra es?</span></p>
-      <p style="text-align: center;"><img src="http://i.imgur.com/fC6pCUp.gif" width="390" height="220" /></p>      </div>
-        
+      <div id="taquestion21_86" class="block question iDevice_content" align="center">
+        <span style="font-size: x-large;">¿Qué letra es?</span>
+        <p><img src="http://i.imgur.com/fC6pCUp.gif" width="390" height="220" /></p>      
+      </div>
+        </div>  
+    <br><br>
+
+</div>  <!-- iDevice_wrapper MultichoiceIdevice em_iDevice -->
+</div>  <!-- iDevice emphasis1 -->
+</div> <!-- col-lg-8 --> 
+
+<div class="col-lg-3">
+<div class="iDevice_wrapper MultichoiceIdevice em_iDevice" id="id4">
+<div class="iDevice emphasis1" >
+
+        <div class="iDevice_answers">
         <div class="iDevice_answer">
           <p class="iDevice_answer-field js-required">
           <label for="i21_89" class="sr-av"><a href="#answer-21_89">Opción 1</a></label><input type="radio" name="option21_86" id="i21_89" onclick="$exe.getFeedback(0,3,'21_86','multi')"/>
@@ -190,27 +206,23 @@ $userDetails=$userClass->userDetails($session_uid);
             </div>
         </div>
       </form>
-          <div class="iDevice_solution feedback js-hidden">
-          <h4>Solución</h4>
-            <ol>
-            <li><a href="#answer-21_89">Opción correcta</a><span> (<a href="#sa0b21_86">Retroalimentación</a>)</span></li>
-            <li><a href="#answer-21_197">Incorrecto</a><span> (<a href="#sa1b21_86">Retroalimentación</a>)</span></li>
-            <li><a href="#answer-21_200">Incorrecto</a><span> (<a href="#sa2b21_86">Retroalimentación</a>)</span></li>
-            </ol>
-          </div>
-      </div><!-- FIN FEEDBACK --> 
-     </div>
-      </div>
+
+
+
+
+</div>  <!-- iDevice_wrapper MultichoiceIdevice em_iDevice -->
+</div>  <!-- iDevice emphasis1 -->
+</div> <!-- col-lg-8 --> 
 
       <div id='bottomPagination' align="center">
                      <div class="pagination noprt" align="center">
-                     <a href="letras.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="letpreg2.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+                      <a href="vPreg2.php" class="next"><span>Siguiente<span> &raquo;</span></span></a>
                      </div>
-                </div>
-          </div>        
+      </div>
 
-</div>  
 </section>
+
+
 
 
 
@@ -226,14 +238,6 @@ $userDetails=$userClass->userDetails($session_uid);
             </div>
         </div>
     </footer>
-
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
