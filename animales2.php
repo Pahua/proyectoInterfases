@@ -96,58 +96,59 @@ $userDetails=$userClass->userDetails($session_uid);
         <!-- /.container-fluid -->
     </nav>
 
-
-     <header>
-            <div class="row">
-                <p>
-                    <div class="col-lg-12 text-center">
-                    <h2>¡Bienvenido!</h2>
-                </div>
-            </div>
-    </header>
+<br><br><br>
 
 
 <!-- Portfolio Grid Section -->
 <section id="portfolio">
         <div class="container">
             <!-- MENU LECCIONES -->
-             <div class="col-lg-4" >
-                        <div id="siteNav">
+              <div class="col-lg-4" >
+                     <div id="siteNav">
                         <ul>
-                           <li id="active"><a href="home.php" class="active daddy main-node">Inicio</a></li>
+                           <li><a href="home.php" class="daddy main-node">Inicio</a></li>
+
                            <li><a href="vocales.php" class="daddy">Vocales</a>
-                           <ul class="other-section">
-                              <li><a href="letpreg1.html" class="no-ch">letpreg1</a></li>
-                              <li><a href="letpreg2.html" class="no-ch">letpreg2</a></li>
-                              <li><a href="letpreg3.html" class="no-ch">letpreg3</a></li>
-                              <li><a href="letpreg4.html" class="no-ch">letpreg4</a></li>
-                              <li><a href="letpreg5.html" class="no-ch">letpreg5</a></li>
+                            <ul class="other-section">
+                              <li><a href="vPreg1.php" class="no-ch">1</a></li>
+                              <li><a href="vPreg2.php" class="no-ch">2</a></li>
+                              <li><a href="vPreg3.php" class="no-ch">3</a></li>
+                              <li><a href="vPreg4.php" class="no-ch">4</a></li>
+                              <li><a href="vPreg5.php" class="no-ch">5</a></li>
                            </ul>
                            </li>
-                           <li><a href="cursos/animales_1.html" class="daddy">Animales 1</a>
+
+                           <li><a href="animales1.php" class="daddy">Animales - Parte 1</a>
                            <ul class="other-section">
-                              <li><a href="an1preg1.html" class="no-ch">An1preg1</a></li>
-                              <li><a href="an1preg2.html" class="no-ch">An1preg2</a></li>
-                              <li><a href="an1preg3.html" class="no-ch">An1preg3</a></li>
-                              <li><a href="an1preg4.html" class="no-ch">An1preg4</a></li>
-                              <li><a href="an1preg5.html" class="no-ch">An1preg5</a></li>
+                              <li><a href="an1Preg1.php" class="no-ch">1</a></li>
+                              <li><a href="an1Preg2.php" class="no-ch">2</a></li>
+                              <li><a href="an1Preg3.php" class="no-ch">3</a></li>
+                              <li><a href="an1Preg4.php" class="no-ch">4</a></li>
+                              <li><a href="an1Preg5.php" class="no-ch">5</a></li>
                            </ul>
                            </li>
-                           <li><a href="cursos/animales_2.html" class="daddy">Animales 2</a>
+
+                           <li id="active"><a href="animales2.php" class="active current-page-parent daddy">Animales - Parte 2</a>
                            <ul class="other-section">
-                              <li><a href="an2preg1.html" class="no-ch">An2preg1</a></li>
-                              <li><a href="an2preg2.html" class="no-ch">An2preg2</a></li>
-                              <li><a href="an2preg3.html" class="no-ch">An2preg3</a></li>
-                              <li><a href="an2preg4.html" class="no-ch">An2preg4</a></li>
-                              <li><a href="an2preg5.html" class="no-ch">An2preg5</a></li>
+                              <li><a href="an2Preg1.php" class="no-ch">1</a></li>
+                              <li><a href="an2Preg2.php" class="no-ch">2</a></li>
+                              <li><a href="an2Preg3.php" class="no-ch">3</a></li>
+                              <li><a href="an2Preg4.php" class="no-ch">4</a></li>
+                              <li><a href="an2Preg5.php" class="no-ch">5</a></li>
                            </ul>
                            </li>
+                           <li><a href="home.php"  class="daddy">Colores - Próximamente</a></li>
+                           <li><a href="home.php"  class="daddy">Familia - Próximamente</a></li>
+                           <li><a href="home.php"  class="daddy">Países - Próximamente</a></li>
                         </ul>
                         </div>
           </div>
+
+
           <div class="col-lg-8" >
             <!-- COMIENZA EXE -->
              <div id="main-wrapper">
+           
                 <div id="main"><a name="main"></a>
                 <div id="nodeDecoration" align="center"><h1 id="nodeTitle">Animales - Parte 2</h1></div><p>
                   <div class="iDevice_wrapper AppletIdevice" id="id0">
@@ -162,7 +163,7 @@ $userDetails=$userClass->userDetails($session_uid);
 
                <div id='bottomPagination' align="center">
                 <div class="pagination noprt">
-                  <a href="home.php" class="Nbutton"><span><span></span>Comenzar lección</span></a>
+                  <a href="an2Preg1.php" class="Nbutton"><span><span></span>Comenzar lección</span></a>
                 </div>
               </div>
 </div>        

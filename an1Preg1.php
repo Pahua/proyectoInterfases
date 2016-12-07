@@ -32,6 +32,7 @@ $userDetails=$userClass->userDetails($session_uid);
     <link rel="stylesheet" type="text/css" href="css/content.css" /> 
 
     <script type="text/javascript" src="jsX/exe_jquery.js"></script>
+    <script type="text/javascript">$exe_i18n={previous:"Anterior",next:"Siguiente",show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú",print:"Imprimir"}</script>
     <script type="text/javascript" src="jsX/common.js"></script>
 
      <!-- FIN EXE LEARNING -->
@@ -100,25 +101,27 @@ $userDetails=$userClass->userDetails($session_uid);
                      <div id="siteNav">
                         <ul>
                            <li><a href="home.php" class="daddy main-node">Inicio</a></li>
-                           
-                           <li class="current-page-parent"><a href="vocales.php" class="current-page-parent daddy">Vocales</a>
-                           <ul>
-                              <li id="active"><a href="vPreg1.php" class="active no-ch">1</a></li>
+
+                           <li><a href="vocales.php" class="daddy">Vocales</a>
+                            <ul class="other-section">
+                              <li><a href="vPreg1.php" class="no-ch">1</a></li>
                               <li><a href="vPreg2.php" class="no-ch">2</a></li>
                               <li><a href="vPreg3.php" class="no-ch">3</a></li>
                               <li><a href="vPreg4.php" class="no-ch">4</a></li>
                               <li><a href="vPreg5.php" class="no-ch">5</a></li>
                            </ul>
                            </li>
-                           <li><a href="animales1.php" class="daddy">Animales - Parte 1</a>
-                           <ul class="other-section">
-                              <li><a href="an1Preg1.php" class="no-ch">1</a></li>
+
+                           <li><a href="animales1.php" class="current-page-parent daddy">Animales - Parte 1</a>
+                           <ul class="current-page-parent">
+                              <li id="active"><a href="an1Preg1.php" class="active no-ch">1</a></li>
                               <li><a href="an1Preg2.php" class="no-ch">2</a></li>
                               <li><a href="an1Preg3.php" class="no-ch">3</a></li>
                               <li><a href="an1Preg4.php" class="no-ch">4</a></li>
                               <li><a href="an1Preg5.php" class="no-ch">5</a></li>
                            </ul>
                            </li>
+
                            <li><a href="animales2.php" class="daddy">Animales - Parte 2</a>
                            <ul class="other-section">
                               <li><a href="an2Preg1.php" class="no-ch">1</a></li>
@@ -137,14 +140,14 @@ $userDetails=$userClass->userDetails($session_uid);
 
 
 <div class="col-lg-5">
-<div class="iDevice_wrapper MultichoiceIdevice em_iDevice" id="id4">
+<div class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id10">
 <div class="iDevice emphasis1" >
 
     <div class="question">
-      <form name="multi-choice-form-21_86" action="#" onsubmit="return false" class="activity-form">
-      <div id="taquestion21_86" class="block question iDevice_content" align="center">
-        <span style="font-size: x-large;">¿Qué letra es?</span>
-        <p><img src="http://i.imgur.com/fC6pCUp.gif" width="390" height="220" /></p>      
+     <form name="true-false-form-0b10" action="#" class="activity-form">
+     <div id="taquestion0b10" class="block iDevice_content" align="center">
+        <span style="font-size: x-large;">¿Es un alacrán?</span>
+        <p><img src="https://i.imgur.com/X8fJCpe.gif" width="390" height="220" /></p>      
       </div>
         </div>  
     <br><br>
@@ -154,72 +157,40 @@ $userDetails=$userClass->userDetails($session_uid);
 </div> <!-- col-lg-8 --> 
 
 <div class="col-lg-3">
-<div class="iDevice_wrapper MultichoiceIdevice em_iDevice" id="id4">
+<div class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id10">
 <div class="iDevice emphasis1" >
 
-        <div class="iDevice_answers">
-        <div class="iDevice_answer">
-          <p class="iDevice_answer-field js-required">
-          <label for="i21_89" class="sr-av"><a href="#answer-21_89">Opción 1</a></label><input type="radio" name="option21_86" id="i21_89" onclick="$exe.getFeedback(0,3,'21_86','multi')"/>
-          </p>
-          <div class="iDevice_answer-content" id="answer-21_89"><a name="answer-21_89"></a>
-          <div id="taans21_89" class="block iDevice_content">
-          <p><span style="font-size: large;">U</span></p>
-          </div>
-          </div>
-        </div>
-        <div class="iDevice_answer">
-          <p class="iDevice_answer-field js-required">
-          <label for="i21_197" class="sr-av"><a href="#answer-21_197">Opción 2</a></label><input type="radio" name="option21_86" id="i21_197" onclick="$exe.getFeedback(1,3,'21_86','multi')"/>
-          </p>
-          <div class="iDevice_answer-content" id="answer-21_197"><a name="answer-21_197"></a>
-          <div id="taans21_197" class="block iDevice_content">
-          <p><span style="font-size: large;">W</span></p>
-          </div>
-          </div>
-        </div>
-        <div class="iDevice_answer">
-          <p class="iDevice_answer-field js-required">
-          <label for="i21_200" class="sr-av"><a href="#answer-21_200">Opción 3</a></label><input type="radio" name="option21_86" id="i21_200" onclick="$exe.getFeedback(2,3,'21_86','multi')"/>
-          </p>
-          <div class="iDevice_answer-content" id="answer-21_200"><a name="answer-21_200"></a>
-          <div id="taans21_200" class="block iDevice_content">
-          <p><span style="font-size: large;">P</span></p>
-          </div>
-          </div>
-          </div>
-      </div> <!-- FIN PREGUNTAS --> 
+        <p class="iDevice_answer js-required">
+<label for="true0b10"><input type="radio" name="option0b10" id="true0b10" onclick="$exe.getFeedback(0,2,'0b10','truefalse')" /> Verdadero</label> 
+        </p>
+         <p class="iDevice_answer js-required">
+<label for="false0b10"><input type="radio" name="option0b10" id="false0b10" onclick="$exe.getFeedback(1,2,'0b10','truefalse')" /> Falso</label>
+        </p>
+
+              </form>
+
+       <!-- FIN PREGUNTAS --> 
       <div class="iDevice_feedbacks js-feedback">
+          <div id="s0b10" class="feedback js-feedback js-hidden">
           <h4 class="js-sr-av">Retroalimentación</h4>
-            <div id="sa0b21_86" class="feedback js-hidden"><a name="sa0b21_86"></a>
-            <div id="taf21_89" class=" iDevice_content">
-            <p>¡Correcto!</p>
-            </div>
-            </div>
-            <div id="sa1b21_86" class="feedback js-hidden"><a name="sa1b21_86"></a>
-            <div id="taf21_197" class=" iDevice_content">
-            <p>Incorrecto</p>
-            </div>
-            </div>
-            <div id="sa2b21_86" class="feedback js-hidden"><a name="sa2b21_86"></a>
-            <div id="taf21_200" class=" iDevice_content">
-            <p>Incorrecto</p>
-            </div>
-        </div>
-      </form>
+          <p><strong id="s0b10-result" class="right">Verdadero</strong></p>
+          <p><span style="font-size: large;">Sí es un alacrán</span></p>
+          </div>
+      </div>
+</div>
 
-
+      <div id='bottomPagination' align="center">
+                     <div class="pagination noprt" align="center">
+                      <a href="an1Preg2.php" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+                     </div>
+      </div>
 
 
 </div>  <!-- iDevice_wrapper MultichoiceIdevice em_iDevice -->
 </div>  <!-- iDevice emphasis1 -->
 </div> <!-- col-lg-8 --> 
 
-      <div id='bottomPagination' align="center">
-                     <div class="pagination noprt" align="center">
-                      <a href="vPreg2.php" class="next"><span>Siguiente<span> &raquo;</span></span></a>
-                     </div>
-      </div>
+
 
 </section>
 
