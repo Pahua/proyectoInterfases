@@ -97,7 +97,7 @@ $userDetails=$userClass->userDetails($session_uid);
         <div class="container">
            <p>
             <!-- MENU LECCIONES -->
-           <div class="col-lg-4" >
+             <div class="col-lg-4" >
                      <div id="siteNav">
                         <ul>
                            <li><a href="home.php" class="daddy main-node">Inicio</a></li>
@@ -127,8 +127,8 @@ $userDetails=$userClass->userDetails($session_uid);
                               <li><a href="an2Preg1.php" class="no-ch">1</a></li>
                               <li><a href="an2Preg2.php" class="no-ch">2</a></li>
                               <li><a href="an2Preg3.php" class="no-ch">3</a></li>
-                              <li id="active"><a href="an2Preg4.php" class="active no-ch">4</a></li>
-                              <li><a href="an2Preg5.php" class="no-ch">5</a></li>
+                              <li><a href="an2Preg4.php" class="no-ch">4</a></li>
+                              <li id="active"><a href="an2Preg5.php" class="active no-ch">5</a></li>
                            </ul>
                            </li>
                            <li><a href="home.php"  class="daddy">Colores - Próximamente</a></li>
@@ -140,92 +140,56 @@ $userDetails=$userClass->userDetails($session_uid);
 
 
 <div class="col-lg-5">
-<div class="iDevice_wrapper MultichoiceIdevice em_iDevice" id="id11">
+<div class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id10">
 <div class="iDevice emphasis1" >
 
     <div class="question">
-     <form name="multi-choice-form-17_86" action="#" onsubmit="return false" class="activity-form">
-     <div id="taquestion11_86" class="block question iDevice_content" align="center">
-        <span style="font-size: x-large;">¿Qué animal es?</span>
-        <p><img src="https://i.imgur.com/qeANim8.gif" width="390" height="220" /></p>      
+     <form name="true-false-form-0b20" action="#" class="activity-form">
+     <div id="taquestion0b10" class="block iDevice_content" align="center">
+        <span style="font-size: x-large;">¿Es un toro?</span>
+        <p><img src="https://i.imgur.com/sgtx5mw.gif" width="390" height="220" /></p>      
       </div>
-    </div>  
-
+        </div>  
+    <br><br>
 
 </div>  <!-- iDevice_wrapper MultichoiceIdevice em_iDevice -->
 </div>  <!-- iDevice emphasis1 -->
 </div> <!-- col-lg-8 --> 
 
 <div class="col-lg-3">
-<div class="iDevice_wrapper MultichoiceIdevice em_iDevice" id="id11">
+<div class="iDevice_wrapper TrueFalseIdevice em_iDevice" id="id10">
 <div class="iDevice emphasis1" >
 
-<!-- PREGUNTAS --> 
- <div class="iDevice_answers">
-  <div class="iDevice_answer">
-  <p class="iDevice_answer-field js-required">
-  <label for="i25_89" class="sr-av"><a href="#answer-25_89">Opción 1</a></label><input type="radio" name="option25_86" id="i25_89" onclick="$exe.getFeedback(0,3,'25_86','multi')"/>
-  </p>
-  <div class="iDevice_answer-content" id="answer-25_89"><a name="answer-25_89"></a>
-  <div id="taans25_89" class="block iDevice_content">
-  <p>Pingüino</p>
-  </div>
-  </div>
-  </div>
-  <div class="iDevice_answer">
-  <p class="iDevice_answer-field js-required">
-  <label for="i25_215" class="sr-av"><a href="#answer-25_215">Opción 2</a></label><input type="radio" name="option25_86" id="i25_215" onclick="$exe.getFeedback(1,3,'25_86','multi')"/>
-  </p>
-  <div class="iDevice_answer-content" id="answer-25_215"><a name="answer-25_215"></a>
-  <div id="taans25_215" class="block iDevice_content">
-  <p>Vaca</p>
-  </div>
-  </div>
-  </div>
-  <div class="iDevice_answer">
-  <p class="iDevice_answer-field js-required">
-  <label for="i25_224" class="sr-av"><a href="#answer-25_224">Opción 3</a></label><input type="radio" name="option25_86" id="i25_224" onclick="$exe.getFeedback(2,3,'25_86','multi')"/>
-  </p>
-  <div class="iDevice_answer-content" id="answer-25_224"><a name="answer-25_224"></a>
-  <div id="taans25_224" class="block iDevice_content">
-  <p>Foca</p>
-  </div>
-  </div>
-  </div>
+    <p class="iDevice_answer js-required">
+    <label for="true0b20"><input type="radio" name="option0b20" id="true0b20" onclick="$exe.getFeedback(0,2,'0b20','truefalse')" /> Verdadero</label> 
+    </p>
+    <p class="iDevice_answer js-required">
+    <label for="false0b20"><input type="radio" name="option0b20" id="false0b20" onclick="$exe.getFeedback(1,2,'0b20','truefalse')" /> Falso</label>
+    </p>
+    </form>
+
+      </form>
+
+       <!-- FIN PREGUNTAS --> 
+      <div class="iDevice_feedbacks js-feedback">
+       <div id="s0b20" class="feedback js-feedback js-hidden">
+      <h4 class="js-sr-av">Retroalimentación</h4>
+      <p><strong id="s0b20-result" class="right">Verdadero</strong></p>
+      <p><span style="font-size: large;">La seña sí representa al toro.</span></p>
+      </div>
+      </div>
 </div>
 
-      <!-- FIN PREGUNTAS --> 
-     <div class="iDevice_feedbacks js-feedback">
-      <h4 class="js-sr-av">Retroalimentación</h4>
-      <div id="sa0b25_86" class="feedback js-hidden"><a name="sa0b25_86"></a>
-      <div id="taf25_89" class=" iDevice_content">
-      <p>Correcto.</p>
+      <div id='bottomPagination' align="center">
+                     <div class="pagination noprt" align="center">
+                      <a href="home.php" class="next"><span>Calificar<span> &raquo;</span></span></a>
+                     </div>
       </div>
-      </div>
-      <div id="sa1b25_86" class="feedback js-hidden"><a name="sa1b25_86"></a>
-      <div id="taf25_215" class=" iDevice_content">
-      <p>Incorrecto.</p>
-      </div>
-      </div>
-      <div id="sa2b25_86" class="feedback js-hidden"><a name="sa2b25_86"></a>
-      <div id="taf25_224" class=" iDevice_content">
-      <p>Incorrecto.</p>
-      </div>
-      </div>
-    </div>
-</form>
+
 
 </div>  <!-- iDevice_wrapper MultichoiceIdevice em_iDevice -->
 </div>  <!-- iDevice emphasis1 -->
 </div> <!-- col-lg-8 --> 
-
-
-      <div id='bottomPagination' align="center">
-                     <div class="pagination noprt" align="center">
-                      <a href="an2Preg5.php" class="next"><span>Siguiente<span> &raquo;</span></span></a>
-                     </div>
-      </div>
-
 
 
 

@@ -126,8 +126,8 @@ $userDetails=$userClass->userDetails($session_uid);
                            <ul class="current-page-parent">
                               <li><a href="an2Preg1.php" class="no-ch">1</a></li>
                               <li><a href="an2Preg2.php" class="no-ch">2</a></li>
-                              <li><a href="an2Preg3.php" class="no-ch">3</a></li>
-                              <li id="active"><a href="an2Preg4.php" class="active no-ch">4</a></li>
+                              <li id="active"><a href="an2Preg3.php" class="active no-ch">3</a></li>
+                              <li><a href="an2Preg4.php" class="no-ch">4</a></li>
                               <li><a href="an2Preg5.php" class="no-ch">5</a></li>
                            </ul>
                            </li>
@@ -146,11 +146,10 @@ $userDetails=$userClass->userDetails($session_uid);
     <div class="question">
      <form name="multi-choice-form-17_86" action="#" onsubmit="return false" class="activity-form">
      <div id="taquestion11_86" class="block question iDevice_content" align="center">
-        <span style="font-size: x-large;">¿Qué animal es?</span>
-        <p><img src="https://i.imgur.com/qeANim8.gif" width="390" height="220" /></p>      
+        <span style="font-size: x-large;">¿Es un pez?</span>
+        <p><img src="https://i.imgur.com/ied8qeR.gif" width="390" height="220" /></p>      
       </div>
     </div>  
-
 
 </div>  <!-- iDevice_wrapper MultichoiceIdevice em_iDevice -->
 </div>  <!-- iDevice emphasis1 -->
@@ -160,60 +159,21 @@ $userDetails=$userClass->userDetails($session_uid);
 <div class="iDevice_wrapper MultichoiceIdevice em_iDevice" id="id11">
 <div class="iDevice emphasis1" >
 
-<!-- PREGUNTAS --> 
- <div class="iDevice_answers">
-  <div class="iDevice_answer">
-  <p class="iDevice_answer-field js-required">
-  <label for="i25_89" class="sr-av"><a href="#answer-25_89">Opción 1</a></label><input type="radio" name="option25_86" id="i25_89" onclick="$exe.getFeedback(0,3,'25_86','multi')"/>
-  </p>
-  <div class="iDevice_answer-content" id="answer-25_89"><a name="answer-25_89"></a>
-  <div id="taans25_89" class="block iDevice_content">
-  <p>Pingüino</p>
-  </div>
-  </div>
-  </div>
-  <div class="iDevice_answer">
-  <p class="iDevice_answer-field js-required">
-  <label for="i25_215" class="sr-av"><a href="#answer-25_215">Opción 2</a></label><input type="radio" name="option25_86" id="i25_215" onclick="$exe.getFeedback(1,3,'25_86','multi')"/>
-  </p>
-  <div class="iDevice_answer-content" id="answer-25_215"><a name="answer-25_215"></a>
-  <div id="taans25_215" class="block iDevice_content">
-  <p>Vaca</p>
-  </div>
-  </div>
-  </div>
-  <div class="iDevice_answer">
-  <p class="iDevice_answer-field js-required">
-  <label for="i25_224" class="sr-av"><a href="#answer-25_224">Opción 3</a></label><input type="radio" name="option25_86" id="i25_224" onclick="$exe.getFeedback(2,3,'25_86','multi')"/>
-  </p>
-  <div class="iDevice_answer-content" id="answer-25_224"><a name="answer-25_224"></a>
-  <div id="taans25_224" class="block iDevice_content">
-  <p>Foca</p>
-  </div>
-  </div>
-  </div>
-</div>
+    <!-- PREGUNTAS --> 
+     <p class="iDevice_answer js-required">
+     <label for="true0b24"><input type="radio" name="option0b24" id="true0b24" onclick="$exe.getFeedback(0,2,'0b24','truefalse')" /> Verdadero</label> 
+     </p>
+     <p class="iDevice_answer js-required">
+    <label for="false0b24"><input type="radio" name="option0b24" id="false0b24" onclick="$exe.getFeedback(1,2,'0b24','truefalse')" /> Falso</label>
+    </p>
+    </form>
 
       <!-- FIN PREGUNTAS --> 
-     <div class="iDevice_feedbacks js-feedback">
+      <div id="s0b24" class="feedback js-feedback js-hidden">
       <h4 class="js-sr-av">Retroalimentación</h4>
-      <div id="sa0b25_86" class="feedback js-hidden"><a name="sa0b25_86"></a>
-      <div id="taf25_89" class=" iDevice_content">
-      <p>Correcto.</p>
+      <p><strong id="s0b24-result" class="right">Verdadero</strong></p>
+      <p>Sí es un pez.</p>
       </div>
-      </div>
-      <div id="sa1b25_86" class="feedback js-hidden"><a name="sa1b25_86"></a>
-      <div id="taf25_215" class=" iDevice_content">
-      <p>Incorrecto.</p>
-      </div>
-      </div>
-      <div id="sa2b25_86" class="feedback js-hidden"><a name="sa2b25_86"></a>
-      <div id="taf25_224" class=" iDevice_content">
-      <p>Incorrecto.</p>
-      </div>
-      </div>
-    </div>
-</form>
 
 </div>  <!-- iDevice_wrapper MultichoiceIdevice em_iDevice -->
 </div>  <!-- iDevice emphasis1 -->
@@ -222,7 +182,7 @@ $userDetails=$userClass->userDetails($session_uid);
 
       <div id='bottomPagination' align="center">
                      <div class="pagination noprt" align="center">
-                      <a href="an2Preg5.php" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+                      <a href="an2Preg4.php" class="next"><span>Siguiente<span> &raquo;</span></span></a>
                      </div>
       </div>
 
