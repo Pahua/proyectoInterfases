@@ -115,9 +115,9 @@ $userDetails=$userClass->userDetails($session_uid);
                            <li><a href="animales1.php" class="current-page-parent daddy">Animales - Parte 1</a>
                            <ul class="current-page-parent">
                               <li><a href="an1Preg1.php" class="no-ch">1</a></li>
-                              <li id="active"><a href="an1Preg2.php" class="active no-ch">2</a></li>
+                              <li><a href="an1Preg2.php" class="no-ch">2</a></li>
                               <li><a href="an1Preg3.php" class="no-ch">3</a></li>
-                              <li><a href="an1Preg4.php" class="no-ch">4</a></li>
+                              <li id="active"><a href="an1Preg4.php" class="active no-ch">4</a></li>
                               <li><a href="an1Preg5.php" class="no-ch">5</a></li>
                            </ul>
                            </li>

@@ -31,9 +31,10 @@ $userDetails=$userClass->userDetails($session_uid);
     <link rel="stylesheet" type="text/css" href="css/base.css" />
     <link rel="stylesheet" type="text/css" href="css/content.css" /> 
 
+    
     <script type="text/javascript" src="jsX/exe_jquery.js"></script>
+    <script type="text/javascript">$exe_i18n={previous:"Anterior",next:"Siguiente",show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú",print:"Imprimir"}</script>
     <script type="text/javascript" src="jsX/common.js"></script>
-
      <!-- FIN EXE LEARNING -->
 
     <!-- Custom Fonts -->
@@ -148,7 +149,15 @@ $userDetails=$userClass->userDetails($session_uid);
         <p><img src="http://i.imgur.com/ep972ru.gif" width="390" height="220" style="font-size: 1em;" align="center" /></p>
         </div>
     </div>  
-    <br><br>
+<script type="text/javascript">$exe.hint.imgs=["panel-amusements.png","stock-stop.png"]</script>
+<div class="iDevice_hint" align="center">
+<h4 class="iDevice_hint_title">Sugerencia</h4>
+<div class="iDevice_hint_content js-hidden">
+<div id="tahint5_203" class="block iDevice_content">
+<p>La letra es cOmO una bOlita</p>
+</div>
+</div>
+</div>
 
 
 

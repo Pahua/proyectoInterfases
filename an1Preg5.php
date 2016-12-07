@@ -231,7 +231,7 @@ $userDetails=$userClass->userDetails($session_uid);
 
       <div id='bottomPagination' align="center">
                      <div class="pagination noprt" align="center">
-                      <a href="an1Preg3.php" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+                      <a href="home.php" class="next"><span>Calificar<span> &raquo;</span></span></a>
                      </div>
       </div>
 

@@ -32,6 +32,7 @@ $userDetails=$userClass->userDetails($session_uid);
     <link rel="stylesheet" type="text/css" href="css/content.css" /> 
 
     <script type="text/javascript" src="jsX/exe_jquery.js"></script>
+    <script type="text/javascript">$exe_i18n={previous:"Anterior",next:"Siguiente",show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú",print:"Imprimir"}</script>
     <script type="text/javascript" src="jsX/common.js"></script>
 
      <!-- FIN EXE LEARNING -->
@@ -147,7 +148,12 @@ $userDetails=$userClass->userDetails($session_uid);
     <p><img src="http://i.imgur.com/lpnwKY1.gif"width="390" height="220" /></p>
     </div>
   </div>
-
+<script type="text/javascript">$exe.hint.imgs=["panel-amusements.png","stock-stop.png"]</script>
+<div class="iDevice_hint" align="center">
+<h4 class="iDevice_hint_title">Sugerencia</h4>
+<div class="iDevice_hint_content js-hidden">
+<p><span style="font-size: large;">Es ciErto que la sEña Es muy fácil</span>.</p></div>
+</div>
 
 </div>  <!-- iDevice_wrapper MultichoiceIdevice em_iDevice -->
 </div>  <!-- iDevice emphasis1 -->

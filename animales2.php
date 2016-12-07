@@ -96,18 +96,17 @@ $userDetails=$userClass->userDetails($session_uid);
         <!-- /.container-fluid -->
     </nav>
 
-<br><br><br>
 
 
 <!-- Portfolio Grid Section -->
 <section id="portfolio">
         <div class="container">
+           <p>
             <!-- MENU LECCIONES -->
               <div class="col-lg-4" >
                      <div id="siteNav">
                         <ul>
-                           <li><a href="home.php" class="daddy main-node">Inicio</a></li>
-
+                         <li><a href="home.php" class="daddy">Inicio</a></li>
                            <li><a href="vocales.php" class="daddy">Vocales</a>
                             <ul class="other-section">
                               <li><a href="vPreg1.php" class="no-ch">1</a></li>

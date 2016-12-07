@@ -140,9 +140,7 @@ $userDetails=$userClass->userDetails($session_uid);
                 <div class="col-sm-4 portfolio-item">
                     <a href="vocales.php" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
-                            <div class="caption-content">
-                                Vocales
-                            </div>
+                            <div class="caption-content">Vocales - 0%</div>
                         </div>
                         <img src="img/portfolio/menu_icons1.png" class="img-responsive" alt="">
                     </a>
@@ -150,9 +148,7 @@ $userDetails=$userClass->userDetails($session_uid);
                 <div class="col-sm-4 portfolio-item">
                     <a href="animales1.php" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
-                            <div class="caption-content">
-                                Animales Parte 1
-                            </div>
+                            <div class="caption-content">Animales Parte 1 - 0%</div>
                         </div>
                         <img src="img/portfolio/menu_icons4.png" class="img-responsive" alt="">
                     </a>
@@ -160,9 +156,7 @@ $userDetails=$userClass->userDetails($session_uid);
                 <div class="col-sm-4 portfolio-item">
                     <a href="animales2.php" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
-                            <div class="caption-content">
-                                Animales Parte 2
-                            </div>
+                            <div class="caption-content">Animales Parte 2 - 0%</div>
                         </div>
                         <img src="img/portfolio/menu_icons5.png" class="img-responsive" alt="">
                     </a>
@@ -170,19 +164,15 @@ $userDetails=$userClass->userDetails($session_uid);
                  <div class="col-sm-4 portfolio-item">
                     <a href="" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
-                            <div class="caption-content">
-                                Colores - Próximamente
-                            </div>
+                            <div class="caption-content">Colores - Próximamente</div>
                         </div>
                         <img src="img/portfolio/menu_icons3.png" class="img-responsive" alt="">
                     </a>
                 </div>
                  <div class="col-sm-4 portfolio-item">
-                    <a href="c" class="portfolio-link" data-toggle="modal">
+                    <a href="" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
-                            <div class="caption-content">
-                                Familia - Próximamente
-                            </div>
+                            <div class="caption-content">Familia - Próximamente </div>
                         </div>
                         <img src="img/portfolio/menu_icons6.png" class="img-responsive" alt="">
                     </a>
@@ -190,9 +180,7 @@ $userDetails=$userClass->userDetails($session_uid);
                  <div class="col-sm-4 portfolio-item">
                     <a href="" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
-                            <div class="caption-content">
-                              Países  - Próximamente
-                            </div>
+                            <div class="caption-content">Países  - Próximamente</div>
                         </div>
                         <img src="img/portfolio/menu_icons7.png" class="img-responsive" alt="">
                     </a>

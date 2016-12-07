@@ -32,7 +32,6 @@ $userDetails=$userClass->userDetails($session_uid);
     <link rel="stylesheet" type="text/css" href="css/content.css" /> 
 
     <script type="text/javascript" src="jsX/exe_jquery.js"></script>
-    <script type="text/javascript">$exe_i18n={previous:"Anterior",next:"Siguiente",show:"Mostrar",hide:"Ocultar",showFeedback:"Mostrar retroalimentación",hideFeedback:"Ocultar retroalimentación",correct:"Correcto",incorrect:"Incorrecto",menu:"Menú",print:"Imprimir"}</script>
     <script type="text/javascript" src="jsX/common.js"></script>
 
      <!-- FIN EXE LEARNING -->

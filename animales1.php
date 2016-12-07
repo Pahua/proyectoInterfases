@@ -97,51 +97,45 @@ $userDetails=$userClass->userDetails($session_uid);
     </nav>
 
 
-     <header>
-            <div class="row">
-                <p>
-                    <div class="col-lg-12 text-center">
-                    <h2>¡Bienvenido!</h2>
-                </div>
-            </div>
-    </header>
-
-
 <!-- Portfolio Grid Section -->
 <section id="portfolio">
         <div class="container">
+           <p>
             <!-- MENU LECCIONES -->
              <div class="col-lg-4" >
                         <div id="siteNav">
                         <ul>
-                           <li id="active"><a href="home.php" class="active daddy main-node">Inicio</a></li>
+                           <li><a href="home.php" class="daddy">Inicio</a></li>
                            <li><a href="vocales.php" class="daddy">Vocales</a>
                            <ul class="other-section">
-                              <li><a href="letpreg1.html" class="no-ch">letpreg1</a></li>
-                              <li><a href="letpreg2.html" class="no-ch">letpreg2</a></li>
-                              <li><a href="letpreg3.html" class="no-ch">letpreg3</a></li>
-                              <li><a href="letpreg4.html" class="no-ch">letpreg4</a></li>
-                              <li><a href="letpreg5.html" class="no-ch">letpreg5</a></li>
+                               <li><a href="vPreg1.php" class="no-ch">1</a></li>
+                              <li><a href="vPreg2.php" class="no-ch">2</a></li>
+                              <li><a href="vPreg3.php" class="no-ch">3</a></li>
+                              <li><a href="vPreg4.php" class="no-ch">4</a></li>
+                              <li><a href="vPreg5.php" class="no-ch">5</a></li>
                            </ul>
                            </li>
-                           <li><a href="cursos/animales_1.html" class="daddy">Animales </a>
+                           <li id="active"><a href="animales1.php" class="active current-page-parent daddy">Animales </a>
                            <ul class="other-section">
-                              <li><a href="an1preg1.html" class="no-ch">An1preg1</a></li>
-                              <li><a href="an1preg2.html" class="no-ch">An1preg2</a></li>
-                              <li><a href="an1preg3.html" class="no-ch">An1preg3</a></li>
-                              <li><a href="an1preg4.html" class="no-ch">An1preg4</a></li>
-                              <li><a href="an1preg5.html" class="no-ch">An1preg5</a></li>
+                              <li><a href="an1Preg1.php" class="no-ch">1</a></li>
+                              <li><a href="an1Preg2.php" class="no-ch">2</a></li>
+                              <li><a href="an1Preg3.php" class="no-ch">3</a></li>
+                              <li><a href="an1Preg4.php" class="no-ch">4</a></li>
+                              <li><a href="an1Preg5.php" class="no-ch">5</a></li>
                            </ul>
                            </li>
-                           <li><a href="cursos/animales_2.html" class="daddy">Animales 2</a>
+                           <li><a href="animales2.php" class="daddy">Animales 2</a>
                            <ul class="other-section">
-                              <li><a href="an2preg1.html" class="no-ch">An2preg1</a></li>
-                              <li><a href="an2preg2.html" class="no-ch">An2preg2</a></li>
-                              <li><a href="an2preg3.html" class="no-ch">An2preg3</a></li>
-                              <li><a href="an2preg4.html" class="no-ch">An2preg4</a></li>
-                              <li><a href="an2preg5.html" class="no-ch">An2preg5</a></li>
+                               <li><a href="an2Preg1.php" class="no-ch">1</a></li>
+                              <li><a href="an2Preg2.php" class="no-ch">2</a></li>
+                              <li><a href="an2Preg3.php" class="no-ch">3</a></li>
+                              <li><a href="an2Preg4.php" class="no-ch">4</a></li>
+                              <li><a href="an2Preg5.php" class="no-ch">5</a></li>
                            </ul>
                            </li>
+                           <li><a href="home.php"  class="daddy">Colores - Próximamente</a></li>
+                           <li><a href="home.php"  class="daddy">Familia - Próximamente</a></li>
+                           <li><a href="home.php"  class="daddy">Países - Próximamente</a></li>
                         </ul>
                         </div>
           </div>
@@ -153,7 +147,8 @@ $userDetails=$userClass->userDetails($session_uid);
                   <div class="iDevice_wrapper AppletIdevice" id="id0">
                     <div class="iDevice emphasis0" >
                         <div class="iDevice_content">
-                        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/nVGhnmEUB_s?rel=0" frameborder="0" allowfullscreen></iframe></center>
+                        <center>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Sa3RSj2n1uM?rel=0" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
                   </div>
@@ -162,7 +157,7 @@ $userDetails=$userClass->userDetails($session_uid);
 
                <div id='bottomPagination' align="center">
                 <div class="pagination noprt">
-                  <a href="home.php" class="Nbutton"><span><span></span>Comenzar lección</span></a>
+                  <a href="an1Preg1.php" class="Nbutton"><span><span></span>Comenzar lección</span></a>
                 </div>
               </div>
 </div>        
